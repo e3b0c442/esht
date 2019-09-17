@@ -9,7 +9,7 @@
 typedef struct esht esht;
 
 esht *esht_create();
-void *esht_get(esht *tbale, char *key, size_t *len);
+void *esht_get(esht *table, char *key, size_t *len);
 int esht_update(esht *table, char *key, void *value, size_t len);
 int esht_remove(esht *table, char *key);
 void esht_destroy(esht *table);
